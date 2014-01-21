@@ -7,7 +7,7 @@ class City {
 	
 	String toString () { "${name}" } 	//shows the name instead of identifier
 	
-	static hasMany = [companiess: Company]
+	static hasMany = [company: Company]
 			
 	static constraints = {
 		name()
